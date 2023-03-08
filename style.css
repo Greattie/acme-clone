@@ -134,3 +134,12 @@ li {
 .card h3 {
     padding: 1rem 0;
 }
+/* FOOTER */
+footer {
+    background-color: var(--ORANGE);
+    padding-top: 2.28rem;
+    padding-bottom: 2.28rem;
+    margin-top: 1.2rem;
+    text-align: center;
+    color: white;
+}
