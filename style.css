@@ -114,3 +114,23 @@ li {
     color: white;
     margin: 0.1rem;
 }
+/* IMAGE CARDS */
+#image-cards {
+    padding:0.12rem 1.4rem 0.7rem 1.4rem;
+}
+#image-cards .container {
+    display: flex; color: black; justify-content: space-around;
+}
+.card {
+    padding: 1.825rem 0;
+    text-align: center;
+    width: 30%;
+    display: block;
+}
+.card img {
+    width: 5.625rem;
+    height: auto;
+}
+.card h3 {
+    padding: 1rem 0;
+}
