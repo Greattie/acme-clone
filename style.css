@@ -20,3 +20,44 @@ body {
     width: 100%;
     background-color: var(--FNTLIGHT);
 }
+/* HEADER  */
+
+header {
+    background: var(--DARK);
+    color: white;
+    border-bottom: 3px solid var(--ORANGE);
+    padding-top: 1.875rem;
+    min-height: 6.375rem;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.brand {
+float: left;
+}
+.highlight {
+    color: var(--ORANGE);
+}
+nav {
+    float: right;
+    padding-top: 0.625rem;
+}
+a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    font-weight: bold;
+}
+li {
+    text-decoration: none;
+    display: inline;
+    float: left;
+    padding: 0 1.3rem;
+} 
+ .active a{
+    color: var(--ORANGE);
+    font-weight: bold;
+}
