@@ -84,3 +84,33 @@ li {
     font-size: 1.25rem;
     margin-top: 1.135rem;
 }
+/* SIGNUP FOR NEWSLETTER */
+#signup {
+    background-color: var(--DARK);
+    color: white;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 0.97rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+}
+#signup .container h1 {
+ text-align: center;
+ margin: 0.9375rem 0;
+ float: left;
+}
+#signup .container form {
+    float: right;
+    margin: 0.9375rem 0;
+}
+#signup .container form input {
+    padding:0.62rem 0.25rem;
+    min-height: 1.563rem;
+    width: 16.6rem;
+}
+.button-1 {
+    background-color: var(--ORANGE);
+    height: 2.38rem;
+    color: white;
+    margin: 0.1rem;
+}
